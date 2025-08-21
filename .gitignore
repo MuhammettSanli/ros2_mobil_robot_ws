@@ -1,0 +1,9 @@
+# ROS build folders
+build/
+install/
+log/
+
+# Other
+*.swp
+*~
+.vscode/
