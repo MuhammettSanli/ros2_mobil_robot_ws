@@ -1,16 +1,16 @@
-🤖 ROS 2 & Gazebo Mobil Robot Simülasyon Projesi 
+## 🤖 ROS 2 & Gazebo Mobil Robot Simülasyon Projesi 
 
 
-📖 Projeye Genel Bakış
+### 📖 Projeye Genel Bakış
 
 Bu depo, ROS 2 Jazzy ve Gazebo Harmonic kullanarak sıfırdan geliştirilen otonom bir mobil robot simülasyon projesinin tüm aşamalarını içermektedir. Proje, robot modellemesinden başlayarak, fiziksel simülasyon, sensör entegrasyonu ve otonom navigasyon (SLAM) yeteneklerine kadar geniş bir yelpazeyi kapsamayı hedeflemektedir.
 
-🗺️ Proje Yol Haritası
+### 🗺️ Proje Yol Haritası
 
 Proje, Git dalları (branch) kullanılarak aşamalar halinde geliştirilmektedir. Her bir dal, projenin belirli bir fonksiyonel kilometre taşını temsil eder.
 
 
-✅ main Dalı - Robot Modelleme ve Görselleştirme
+###  ✅ main Dalı - Robot Modelleme ve Görselleştirme
 
 Durum: Tamamlandı.
 
@@ -21,7 +21,21 @@ Model, robot_state_publisher ve joint_state_publisher kullanılarak RViz üzerin
 Bu dal, projenin en son stabil ve test edilmiş versiyonunu içerir.
 
 
-⏳ feature/gazebo-control Dalı - Gazebo Simülasyonu ve Kontrol
+<img width="1866" height="1167" alt="sonprojeüstv1" src="https://github.com/user-attachments/assets/ef23f8a1-1e7a-4c3d-add2-4b84345e5f3b" />
+
+
+
+<img width="1866" height="1167" alt="sonprojev1" src="https://github.com/user-attachments/assets/50686aae-cbf2-4664-bfd4-3d08976c62e0" />
+
+
+
+
+
+
+
+
+
+### ⏳ feature/gazebo-control Dalı - Gazebo Simülasyonu ve Kontrol
 
 Durum: Geliştirme Aşamasında.
 
@@ -29,7 +43,7 @@ Hedef: Robot modelini Gazebo Harmonic simülasyon ortamında çalıştırmak ve 
 
 
 
-📅 feature/slam-mapping Dalı - Sensör Entegrasyonu ve Haritalama
+### 📅 feature/slam-mapping Dalı - Sensör Entegrasyonu ve Haritalama
 
 Durum: Planlanıyor.
 
@@ -37,7 +51,7 @@ Hedef: Robota bir Lidar sensörü eklemek, slam_toolbox ile haritalama yapmak ve
 
 
 
-🚀 Başlarken
+### 🚀 Başlarken
 Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin.
 
 ### Ön Gereksinimler
