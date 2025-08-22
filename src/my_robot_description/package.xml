@@ -3,17 +3,17 @@
 <package format="3">
   <name>my_robot_description</name>
   <version>0.0.0</version>
-  <description>The my_robot_description package</description>
-  <maintainer email="muhammet@todo.todo">muhammet</maintainer>
+  <description>A mobile robot description and simulation package for ROS 2 Jazzy and Gazebo Harmonic.</description>
+  <maintainer email="muhammettsanli@gmail.com">Muhammet Sanli</maintainer>
   <license>Apache-2.0</license>
 
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>robot_state_publisher</depend>
-  <depend>joint_state_publisher</depend>
   <depend>rviz2</depend>
   <depend>xacro</depend>
-
-  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>ros_gz_bridge</depend>
+  <depend>ros_gz_sim</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
@@ -21,5 +21,4 @@
   <export>
     <build_type>ament_cmake</build_type>
   </export>
-  
 </package>
