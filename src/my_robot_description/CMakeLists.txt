@@ -25,7 +25,7 @@ endif()
 
 # Install URDF, launch, and world files
 install(
-  DIRECTORY urdf launch worlds
+  DIRECTORY urdf launch
   DESTINATION share/${PROJECT_NAME}
 )
 
