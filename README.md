@@ -1,6 +1,7 @@
 # 🤖 ROS 2 & Gazebo Mobil Robot Simülasyon Projesi - Gazebo Kontrol Dalı
 
-[![Robotun Simülasyon ve Görselleştirme Ortamı](link_icin_bir_ekran_goruntusu)](link_icin_bir_ekran_goruntusu)
+# <img width="1854" height="1132" alt="image" src="https://github.com/user-attachments/assets/bc74fda7-ba3e-4a4d-92b0-cbb355682ce7" />
+
 
 ---
 
